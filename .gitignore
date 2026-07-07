@@ -1,0 +1,44 @@
+# Dataset / competition files from Drive
+train/
+test/
+BDC2026/
+submission*.csv
+
+# Human review data and private manifests
+review_batches/
+*manifest*.csv
+*review*.csv
+*decisions*.csv
+
+# Generated outputs
+outputs/
+runs/
+checkpoints/
+models/
+wandb/
+mlruns/
+
+# Private docs / notes / handoff
+*.md
+docs/
+*.pdf
+!README.md
+
+# Python / local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
